@@ -142,6 +142,7 @@ contract ClankerDeployTokenListener is ClankerV3_1_0$OnDeployTokenFunction {
 		ev.interfaceAdmin = dc.rewardsConfig.interfaceAdmin;
 		ev.interfaceRewardRecipient = dc.rewardsConfig.interfaceRewardRecipient;
 
+
 		emit DeployTokenIndexed(ev);
 	}
 }
